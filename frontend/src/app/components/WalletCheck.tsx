@@ -16,7 +16,9 @@ export function WalletCheck({ children }: { children: React.ReactNode }) {
           <p className="text-gray-600 mb-4">
             Please connect your wallet to access this page
           </p>
-          <ConnectButton />
+          <div className="flex justify-center">
+            <ConnectButton />
+          </div>
         </div>
       </div>
     );
